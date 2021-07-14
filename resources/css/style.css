@@ -54,6 +54,8 @@ body {
   
   display: flex;
   flex-direction: column;
+  /* specifies the direction of the flex layout */
+  /* by default it is row, but can be changed to column */
 }
 
 .pizza__price {
@@ -100,6 +102,8 @@ body {
 .pizza__details {
   display: flex;
   margin-top: auto;
+  /* margin between details and content is now calculated by flexbox */
+  /* in order to occupy remaining empty space */
 }
 
 .pizza__detail {
